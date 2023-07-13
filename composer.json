@@ -1,0 +1,12 @@
+{
+  "name": "ec-cube/memberorder",
+  "version": "4.2.0",
+  "description": "受注登録メンバー表示プラグイン",
+  "type": "eccube-plugin",
+  "require": {
+    "ec-cube/plugin-installer": "~0.0.7 || ^2.0"
+  },
+  "extra": {
+    "code": "MemberOrder"
+  }
+}

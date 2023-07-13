@@ -1,0 +1,11 @@
+<script>
+    $(function () {
+        $('#orderOverview .col-6').last().append($('#Member'));
+    })
+</script>
+<div id="Member" class="row mb-3">
+    <div class="col-3">
+        <i class="fa fa-user fa-fw me-1" aria-hidden="true"></i>{{ '登録メンバー'|trans }}
+    </div>
+    <div class="col">{{ Order.Member }}</div>
+</div>
